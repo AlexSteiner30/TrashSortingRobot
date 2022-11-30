@@ -6,6 +6,7 @@ from detecto import utils, visualize
 
 # Loading model
 model = Model()
+model.load()
 
 # Clear console
 os.system('clear')
