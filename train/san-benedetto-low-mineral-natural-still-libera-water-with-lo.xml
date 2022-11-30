@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san-benedetto-low-mineral-natural-still-libera-water-with-lo.jpg</filename>
+    <size>
+        <width>866</width>
+        <height>1390</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>224.741333</xmin>
+            <ymin>88.936714</ymin>
+            <xmax>570.341797</xmax>
+            <ymax>1190.143921</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>1000-ml-plastic-water-bottle-500x500.jpg</filename>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>163.673996</xmin>
+            <ymin>12.975986</ymin>
+            <xmax>329.341980</xmax>
+            <ymax>497.006012</ymax>
+        </bndbox>
+    </object>
+</annotation>

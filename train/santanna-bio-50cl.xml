@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>santanna-bio-50cl.jpg</filename>
+    <size>
+        <width>400</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>157.607498</xmin>
+            <ymin>59.852493</ymin>
+            <xmax>260.349976</xmax>
+            <ymax>348.130005</ymax>
+        </bndbox>
+    </object>
+</annotation>

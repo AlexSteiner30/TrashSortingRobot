@@ -1,0 +1,33 @@
+<annotation>
+    <folder>images</folder>
+    <filename>40135092_3-princeware-pet-plastic-water-bottle-pink-victoria.jpg</filename>
+    <size>
+        <width>900</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>577.358887</xmin>
+            <ymin>173.807816</ymin>
+            <xmax>773.141052</xmax>
+            <ymax>819.089966</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>110.877777</xmin>
+            <ymin>169.812210</ymin>
+            <xmax>301.665558</xmax>
+            <ymax>812.097778</ymax>
+        </bndbox>
+    </object>
+</annotation>

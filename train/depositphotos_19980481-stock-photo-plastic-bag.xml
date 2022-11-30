@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>depositphotos_19980481-stock-photo-plastic-bag.jpg</filename>
+    <size>
+        <width>400</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>50.875000</xmin>
+            <ymin>66.890007</ymin>
+            <xmax>372.070007</xmax>
+            <ymax>524.126648</ymax>
+        </bndbox>
+    </object>
+</annotation>

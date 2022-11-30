@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>lighterdrop.jpg</filename>
+    <size>
+        <width>300</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>30.900000</xmin>
+            <ymin>190.525009</ymin>
+            <xmax>162.460007</xmax>
+            <ymax>279.302490</ymax>
+        </bndbox>
+    </object>
+</annotation>

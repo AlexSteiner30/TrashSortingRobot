@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>SANT-ANNA-15-LT-DIETRO.jpg</filename>
+    <size>
+        <width>600</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>221.631668</xmin>
+            <ymin>36.940002</ymin>
+            <xmax>379.368347</xmax>
+            <ymax>563.061646</ymax>
+        </bndbox>
+    </object>
+</annotation>

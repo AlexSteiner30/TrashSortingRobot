@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>HTB1Oj-ZXBKw3KVjSZTEq6AuRpXaf.jpg</filename>
+    <size>
+        <width>1000</width>
+        <height>1000</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>333.666992</xmin>
+            <ymin>28.971972</ymin>
+            <xmax>664.335938</xmax>
+            <ymax>961.039001</ymax>
+        </bndbox>
+    </object>
+</annotation>

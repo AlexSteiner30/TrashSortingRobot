@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>61HXJ2xB2vL-_AC_SX466_.jpg</filename>
+    <size>
+        <width>466</width>
+        <height>569</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>146.686691</xmin>
+            <ymin>6.989469</ymin>
+            <xmax>315.324036</xmax>
+            <ymax>551.031616</ymax>
+        </bndbox>
+    </object>
+</annotation>

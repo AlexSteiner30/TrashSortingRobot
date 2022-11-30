@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>market-for-bioplastics-growing-fast.jpg</filename>
+    <size>
+        <width>2000</width>
+        <height>1334</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>631.684509</xmin>
+            <ymin>23.982756</ymin>
+            <xmax>1116.442139</xmax>
+            <ymax>1280.040527</ymax>
+        </bndbox>
+    </object>
+</annotation>

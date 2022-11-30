@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>61AnpGBOuuL-_AC_SX466_.jpg</filename>
+    <size>
+        <width>466</width>
+        <height>696</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>20.957081</xmin>
+            <ymin>9.987072</ymin>
+            <xmax>465.002136</xmax>
+            <ymax>690.008606</ymax>
+        </bndbox>
+    </object>
+</annotation>

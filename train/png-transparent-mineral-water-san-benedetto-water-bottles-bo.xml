@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>png-transparent-mineral-water-san-benedetto-water-bottles-bo.png</filename>
+    <size>
+        <width>920</width>
+        <height>1433</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>223.757614</xmin>
+            <ymin>24.983280</ymin>
+            <xmax>694.245667</xmax>
+            <ymax>1102.230957</ymax>
+        </bndbox>
+    </object>
+</annotation>

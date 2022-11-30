@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>skynews-evian-bottle_4208733.jpg</filename>
+    <size>
+        <width>2048</width>
+        <height>1152</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>405.802246</xmin>
+            <ymin>33.971363</ymin>
+            <xmax>727.645020</xmax>
+            <ymax>1133.016479</ymax>
+        </bndbox>
+    </object>
+</annotation>

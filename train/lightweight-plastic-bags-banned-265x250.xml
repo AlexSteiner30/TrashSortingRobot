@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>lightweight-plastic-bags-banned-265x250.jpg</filename>
+    <size>
+        <width>867</width>
+        <height>818</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>326.623993</xmin>
+            <ymin>205.749374</ymin>
+            <xmax>596.312622</xmax>
+            <ymax>674.176025</ymax>
+        </bndbox>
+    </object>
+</annotation>

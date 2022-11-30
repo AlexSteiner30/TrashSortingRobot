@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>-2x_Elite_Benedicta_Naturale_1L.png</filename>
+    <size>
+        <width>1248</width>
+        <height>1248</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>499.600128</xmin>
+            <ymin>241.806915</ymin>
+            <xmax>752.397400</xmax>
+            <ymax>1118.104126</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>Core_Range_-_EVIAN_330ML_BOTTLE.png</filename>
+    <size>
+        <width>440</width>
+        <height>730</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>78.822723</xmin>
+            <ymin>8.989028</ymin>
+            <xmax>370.159058</xmax>
+            <ymax>723.009583</ymax>
+        </bndbox>
+    </object>
+</annotation>

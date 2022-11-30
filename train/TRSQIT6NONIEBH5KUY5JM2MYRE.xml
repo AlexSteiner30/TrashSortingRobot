@@ -1,0 +1,33 @@
+<annotation>
+    <folder>train</folder>
+    <filename>TRSQIT6NONIEBH5KUY5JM2MYRE.jpg</filename>
+    <size>
+        <width>4175</width>
+        <height>2805</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1348.677124</xmin>
+            <ymin>851.696594</ymin>
+            <xmax>2439.416016</xmax>
+            <ymax>2410.140869</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>2186.476562</xmin>
+            <ymin>555.802185</ymin>
+            <xmax>3589.140625</xmax>
+            <ymax>2599.073486</ymax>
+        </bndbox>
+    </object>
+</annotation>

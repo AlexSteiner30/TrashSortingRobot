@@ -1,0 +1,33 @@
+<annotation>
+    <folder>images</folder>
+    <filename>He5469df5d43249a3894d6faaa917dc46y-jpg_200x200.jpg</filename>
+    <size>
+        <width>200</width>
+        <height>200</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>10.950000</xmin>
+            <ymin>60.700001</ymin>
+            <xmax>87.564995</xmax>
+            <ymax>161.195007</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>87.565002</xmin>
+            <ymin>100.500000</ymin>
+            <xmax>183.085007</xmax>
+            <ymax>182.089996</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san-benedetto-05-l-sparkling-water-pet.jpg</filename>
+    <size>
+        <width>458</width>
+        <height>458</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>2.995633</xmin>
+            <ymin>6.986907</ymin>
+            <xmax>448.021820</xmax>
+            <ymax>452.013092</ymax>
+        </bndbox>
+    </object>
+</annotation>

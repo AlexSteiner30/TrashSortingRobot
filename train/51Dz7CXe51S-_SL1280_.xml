@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>51Dz7CXe51S-_SL1280_.jpg</filename>
+    <size>
+        <width>958</width>
+        <height>1280</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PaperBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>197.794357</xmin>
+            <ymin>40.968750</ymin>
+            <xmax>827.136780</xmax>
+            <ymax>1255.019531</ymax>
+        </bndbox>
+    </object>
+</annotation>

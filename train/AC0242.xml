@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>AC0242.jpg</filename>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>183.634003</xmin>
+            <ymin>128.743988</ymin>
+            <xmax>312.376007</xmax>
+            <ymax>490.020020</ymax>
+        </bndbox>
+    </object>
+</annotation>

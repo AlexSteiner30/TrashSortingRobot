@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>depositphotos_155152812-stock-photo-london-uk-may-29-2017.jpg</filename>
+    <size>
+        <width>1131</width>
+        <height>1700</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>346.694092</xmin>
+            <ymin>104.938850</ymin>
+            <xmax>797.295288</xmax>
+            <ymax>1536.096436</ymax>
+        </bndbox>
+    </object>
+</annotation>

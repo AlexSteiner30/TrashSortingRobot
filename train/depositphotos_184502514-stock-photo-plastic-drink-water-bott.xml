@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>depositphotos_184502514-stock-photo-plastic-drink-water-bott.jpg</filename>
+    <size>
+        <width>900</width>
+        <height>1700</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>235.738892</xmin>
+            <ymin>60.964676</ymin>
+            <xmax>666.260010</xmax>
+            <ymax>1463.139404</ymax>
+        </bndbox>
+    </object>
+</annotation>

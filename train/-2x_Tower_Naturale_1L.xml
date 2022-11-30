@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>-2x_Tower_Naturale_1L.png</filename>
+    <size>
+        <width>1248</width>
+        <height>1248</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>501.598572</xmin>
+            <ymin>207.834106</ymin>
+            <xmax>751.398254</xmax>
+            <ymax>1124.099365</ymax>
+        </bndbox>
+    </object>
+</annotation>

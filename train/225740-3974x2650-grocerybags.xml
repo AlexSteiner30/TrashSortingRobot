@@ -1,0 +1,33 @@
+<annotation>
+    <folder>images</folder>
+    <filename>225740-3974x2650-grocerybags.jpg</filename>
+    <size>
+        <width>3974</width>
+        <height>2650</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>2103.470703</xmin>
+            <ymin>281.893890</ymin>
+            <xmax>3529.111816</xmax>
+            <ymax>2427.083984</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>578.854553</xmin>
+            <ymin>336.873138</ymin>
+            <xmax>2113.468262</xmax>
+            <ymax>2403.093018</ymax>
+        </bndbox>
+    </object>
+</annotation>

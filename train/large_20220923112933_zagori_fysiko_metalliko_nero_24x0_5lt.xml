@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>large_20220923112933_zagori_fysiko_metalliko_nero_24x0_5lt.jpeg</filename>
+    <size>
+        <width>250</width>
+        <height>143</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>60.759998</xmin>
+            <ymin>4.972029</ymin>
+            <xmax>92.632004</xmax>
+            <ymax>132.076920</ymax>
+        </bndbox>
+    </object>
+</annotation>

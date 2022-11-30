@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san-benedetto-400-ml-still-blue-pet_1.jpg</filename>
+    <size>
+        <width>600</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>194.676666</xmin>
+            <ymin>16.973330</ymin>
+            <xmax>407.321655</xmax>
+            <ymax>574.043335</ymax>
+        </bndbox>
+    </object>
+</annotation>

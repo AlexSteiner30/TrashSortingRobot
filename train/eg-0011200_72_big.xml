@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>eg-0011200_72_big.jpg</filename>
+    <size>
+        <width>1500</width>
+        <height>1500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>552.632019</xmin>
+            <ymin>26.982677</ymin>
+            <xmax>986.342651</xmax>
+            <ymax>1462.025269</ymax>
+        </bndbox>
+    </object>
+</annotation>

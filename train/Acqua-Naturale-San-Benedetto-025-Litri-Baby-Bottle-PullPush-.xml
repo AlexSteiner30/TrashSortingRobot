@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>Acqua-Naturale-San-Benedetto-025-Litri-Baby-Bottle-PullPush-.jpg</filename>
+    <size>
+        <width>480</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>180.625000</xmin>
+            <ymin>100.791664</ymin>
+            <xmax>296.383331</xmax>
+            <ymax>400.166656</ymax>
+        </bndbox>
+    </object>
+</annotation>

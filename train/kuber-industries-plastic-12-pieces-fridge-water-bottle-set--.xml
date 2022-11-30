@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>kuber-industries-plastic-12-pieces-fridge-water-bottle-set--.jpg</filename>
+    <size>
+        <width>1500</width>
+        <height>1500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>462.691986</xmin>
+            <ymin>25.983332</ymin>
+            <xmax>920.386658</xmax>
+            <ymax>1409.060669</ymax>
+        </bndbox>
+    </object>
+</annotation>

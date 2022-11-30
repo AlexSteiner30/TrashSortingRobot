@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>caps-vented.jpg</filename>
+    <size>
+        <width>285</width>
+        <height>285</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>3.989474</xmin>
+            <ymin>74.740341</ymin>
+            <xmax>285.000000</xmax>
+            <ymax>211.259644</ymax>
+        </bndbox>
+    </object>
+</annotation>

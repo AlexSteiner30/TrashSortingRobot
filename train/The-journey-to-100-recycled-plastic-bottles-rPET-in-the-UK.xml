@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>The-journey-to-100-recycled-plastic-bottles-rPET-in-the-UK.jpg</filename>
+    <size>
+        <width>1865</width>
+        <height>1381</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>568.695435</xmin>
+            <ymin>23.983362</ymin>
+            <xmax>1065.428955</xmax>
+            <ymax>1131.181030</ymax>
+        </bndbox>
+    </object>
+</annotation>

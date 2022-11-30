@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>gro_evian_zcs_01_z.jpg</filename>
+    <size>
+        <width>333</width>
+        <height>333</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>280.159149</xmin>
+            <ymin>103.690689</ymin>
+            <xmax>331.006012</xmax>
+            <ymax>267.198181</ymax>
+        </bndbox>
+    </object>
+</annotation>

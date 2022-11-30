@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>plastic-water-bottle-empty-recycling-isolated-white-backgrou.jpg</filename>
+    <size>
+        <width>643</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>149.768280</xmin>
+            <ymin>72.919968</ymin>
+            <xmax>495.230164</xmax>
+            <ymax>862.042236</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL21lZGlhLm1hZGlz.webp</filename>
+    <size>
+        <width>600</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>254.576675</xmin>
+            <ymin>67.832512</ymin>
+            <xmax>344.426666</xmax>
+            <ymax>330.175018</ymax>
+        </bndbox>
+    </object>
+</annotation>

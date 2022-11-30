@@ -1,0 +1,33 @@
+<annotation>
+    <folder>train</folder>
+    <filename>p-1-90524283-embargo-july-8-001-gmt-evianand8217s-new-100-re.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>449.649231</xmin>
+            <ymin>39.945839</ymin>
+            <xmax>663.482056</xmax>
+            <ymax>662.080566</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>646.495300</xmin>
+            <ymin>64.911125</ymin>
+            <xmax>849.336731</xmax>
+            <ymax>664.077759</ymax>
+        </bndbox>
+    </object>
+</annotation>

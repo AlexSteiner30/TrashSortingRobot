@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>pb-blue.jpg</filename>
+    <size>
+        <width>1200</width>
+        <height>1200</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>190.841660</xmin>
+            <ymin>77.935852</ymin>
+            <xmax>1035.137451</xmax>
+            <ymax>1144.046631</ymax>
+        </bndbox>
+    </object>
+</annotation>

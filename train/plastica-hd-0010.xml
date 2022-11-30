@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>plastica-hd-0010.jpg</filename>
+    <size>
+        <width>1383</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>259.812714</xmin>
+            <ymin>139.845535</ymin>
+            <xmax>819.407715</xmax>
+            <ymax>688.235535</ymax>
+        </bndbox>
+    </object>
+</annotation>

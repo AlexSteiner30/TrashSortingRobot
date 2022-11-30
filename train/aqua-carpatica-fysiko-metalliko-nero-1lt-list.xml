@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>aqua-carpatica-fysiko-metalliko-nero-1lt-list.jpg</filename>
+    <size>
+        <width>250</width>
+        <height>250</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>93.628006</xmin>
+            <ymin>6.975995</ymin>
+            <xmax>158.368011</xmax>
+            <ymax>244.024002</ymax>
+        </bndbox>
+    </object>
+</annotation>

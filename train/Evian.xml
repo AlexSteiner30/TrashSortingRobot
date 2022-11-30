@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>evian.PNG</filename>
+    <size>
+        <width>664</width>
+        <height>486</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>118.822289</xmin>
+            <ymin>14.971192</ymin>
+            <xmax>219.670197</xmax>
+            <ymax>395.187256</ymax>
+        </bndbox>
+    </object>
+</annotation>

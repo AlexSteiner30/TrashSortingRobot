@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>40176644_9-bb-home-leo-plastic-pet-water-bottle-light-blue-w.jpg</filename>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>183.634003</xmin>
+            <ymin>25.950006</ymin>
+            <xmax>319.362000</xmax>
+            <ymax>435.130005</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>plastic-water-bottle-700-206539381.jpg</filename>
+    <size>
+        <width>493</width>
+        <height>700</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>153.689651</xmin>
+            <ymin>48.931446</ymin>
+            <xmax>356.277893</xmax>
+            <ymax>647.075745</ymax>
+        </bndbox>
+    </object>
+</annotation>

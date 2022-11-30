@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>evian-virgil-abloh-recycled-plastic-bottle_dezeen_2364_col_3.jpg</filename>
+    <size>
+        <width>1376</width>
+        <height>2560</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>753.452759</xmin>
+            <ymin>1018.602356</ymin>
+            <xmax>1169.150513</xmax>
+            <ymax>1530.402344</ymax>
+        </bndbox>
+    </object>
+</annotation>

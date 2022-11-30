@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>acqua-sant-anna-frizzante-50-pet-pac24-pgbevande.jpg</filename>
+    <size>
+        <width>1200</width>
+        <height>1200</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>474.605011</xmin>
+            <ymin>174.855011</ymin>
+            <xmax>742.381714</xmax>
+            <ymax>1009.159180</ymax>
+        </bndbox>
+    </object>
+</annotation>

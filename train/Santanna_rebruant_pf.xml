@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>Santanna_rebruant_pf.jpg</filename>
+    <size>
+        <width>560</width>
+        <height>364</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>148.735718</xmin>
+            <ymin>38.895611</ymin>
+            <xmax>233.583923</xmax>
+            <ymax>352.032959</ymax>
+        </bndbox>
+    </object>
+</annotation>

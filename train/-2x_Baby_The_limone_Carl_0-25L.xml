@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>-2x_Baby_The_limone_Carl_0-25L.png</filename>
+    <size>
+        <width>1248</width>
+        <height>1248</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>468.625000</xmin>
+            <ymin>287.770020</ymin>
+            <xmax>772.381470</xmax>
+            <ymax>1119.103394</ymax>
+        </bndbox>
+    </object>
+</annotation>

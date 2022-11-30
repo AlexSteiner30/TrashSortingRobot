@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>81AUvPoWbnL-_AC_SL1500_.jpg</filename>
+    <size>
+        <width>1500</width>
+        <height>1473</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>685.543335</xmin>
+            <ymin>209.858139</ymin>
+            <xmax>1430.046631</xmax>
+            <ymax>1193.190063</ymax>
+        </bndbox>
+    </object>
+</annotation>

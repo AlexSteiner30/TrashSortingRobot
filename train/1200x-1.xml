@@ -1,0 +1,33 @@
+<annotation>
+    <folder>images</folder>
+    <filename>1200x-1.jpg</filename>
+    <size>
+        <width>1200</width>
+        <height>758</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>754.371643</xmin>
+            <ymin>134.823227</ymin>
+            <xmax>1191.007446</xmax>
+            <ymax>672.113464</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>21.982500</xmin>
+            <ymin>211.721634</ymin>
+            <xmax>363.697510</xmax>
+            <ymax>739.025024</ymax>
+        </bndbox>
+    </object>
+</annotation>

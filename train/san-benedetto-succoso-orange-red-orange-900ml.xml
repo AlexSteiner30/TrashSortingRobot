@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san-benedetto-succoso-orange-red-orange-900ml.jpg</filename>
+    <size>
+        <width>700</width>
+        <height>700</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>249.644287</xmin>
+            <ymin>106.848564</ymin>
+            <xmax>462.340027</xmax>
+            <ymax>593.152832</ymax>
+        </bndbox>
+    </object>
+</annotation>

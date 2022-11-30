@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>AC0099-4.jpg</filename>
+    <size>
+        <width>407</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>129.683060</xmin>
+            <ymin>4.992007</ymin>
+            <xmax>267.343994</xmax>
+            <ymax>493.014008</ymax>
+        </bndbox>
+    </object>
+</annotation>

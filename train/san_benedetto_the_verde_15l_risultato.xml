@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san_benedetto_the_verde_15l_risultato.png</filename>
+    <size>
+        <width>350</width>
+        <height>350</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>122.651428</xmin>
+            <ymin>5.985722</ymin>
+            <xmax>229.345718</xmax>
+            <ymax>341.025696</ymax>
+        </bndbox>
+    </object>
+</annotation>

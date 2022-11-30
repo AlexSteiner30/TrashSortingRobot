@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>stream_a168c2ea-9eae-43a4-8d42-61c22c7dee63.png</filename>
+    <size>
+        <width>1000</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>357.643005</xmin>
+            <ymin>4.993330</ymin>
+            <xmax>601.399048</xmax>
+            <ymax>600.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>

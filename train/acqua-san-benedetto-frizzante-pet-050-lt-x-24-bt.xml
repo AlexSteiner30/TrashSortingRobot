@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>acqua-san-benedetto-frizzante-pet-050-lt-x-24-bt.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>1025</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>303.621246</xmin>
+            <ymin>375.634125</ymin>
+            <xmax>506.367493</xmax>
+            <ymax>1000.024414</ymax>
+        </bndbox>
+    </object>
+</annotation>

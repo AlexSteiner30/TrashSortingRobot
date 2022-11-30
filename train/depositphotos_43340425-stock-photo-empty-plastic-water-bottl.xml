@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>depositphotos_43340425-stock-photo-empty-plastic-water-bottl.jpg</filename>
+    <size>
+        <width>682</width>
+        <height>1023</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>178.738998</xmin>
+            <ymin>37.963833</ymin>
+            <xmax>494.275696</xmax>
+            <ymax>997.025391</ymax>
+        </bndbox>
+    </object>
+</annotation>

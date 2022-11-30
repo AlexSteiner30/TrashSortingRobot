@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>-2x_Ecogreen_Benedicta_1L.png</filename>
+    <size>
+        <width>1248</width>
+        <height>1248</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>464.628204</xmin>
+            <ymin>258.793304</ymin>
+            <xmax>775.379028</xmax>
+            <ymax>1121.101807</ymax>
+        </bndbox>
+    </object>
+</annotation>

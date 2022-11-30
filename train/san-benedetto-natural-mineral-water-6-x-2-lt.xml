@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san-benedetto-natural-mineral-water-6-x-2-lt.jpg</filename>
+    <size>
+        <width>578</width>
+        <height>664</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>204.647064</xmin>
+            <ymin>36.945786</ymin>
+            <xmax>377.347778</xmax>
+            <ymax>626.057251</ymax>
+        </bndbox>
+    </object>
+</annotation>

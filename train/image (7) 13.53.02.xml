@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>image (7) 13.53.02.jpeg</filename>
+    <size>
+        <width>244</width>
+        <height>206</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>42.827869</xmin>
+            <ymin>65.684471</ymin>
+            <xmax>155.364761</xmax>
+            <ymax>171.169907</ymax>
+        </bndbox>
+    </object>
+</annotation>

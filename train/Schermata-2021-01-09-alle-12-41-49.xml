@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>Schermata-2021-01-09-alle-12-41-49.png</filename>
+    <size>
+        <width>1342</width>
+        <height>1350</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>762.432190</xmin>
+            <ymin>729.459961</ymin>
+            <xmax>1168.129639</xmax>
+            <ymax>1237.083740</ymax>
+        </bndbox>
+    </object>
+</annotation>

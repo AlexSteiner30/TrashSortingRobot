@@ -1,0 +1,45 @@
+<annotation>
+    <folder>images</folder>
+    <filename>image (10) 13.53.15.jpeg</filename>
+    <size>
+        <width>219</width>
+        <height>230</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>140.360733</xmin>
+            <ymin>32.860867</ymin>
+            <xmax>203.073059</xmax>
+            <ymax>206.104355</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>78.643837</xmin>
+            <ymin>32.860867</ymin>
+            <xmax>142.351593</xmax>
+            <ymax>209.091309</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>19.913240</xmin>
+            <ymin>31.865223</ymin>
+            <xmax>78.643837</xmax>
+            <ymax>207.099991</ymax>
+        </bndbox>
+    </object>
+</annotation>

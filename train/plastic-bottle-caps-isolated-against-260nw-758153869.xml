@@ -1,0 +1,33 @@
+<annotation>
+    <folder>train</folder>
+    <filename>plastic-bottle-caps-isolated-against-260nw-758153869.jpg</filename>
+    <size>
+        <width>390</width>
+        <height>280</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>208.466675</xmin>
+            <ymin>44.842873</ymin>
+            <xmax>382.020508</xmax>
+            <ymax>233.167847</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>15.961539</xmin>
+            <ymin>55.803577</ymin>
+            <xmax>191.510254</xmax>
+            <ymax>237.153564</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>2020_evian_rPET_50cl_Bottle_HERO_front-centered.png</filename>
+    <size>
+        <width>1100</width>
+        <height>1397</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>360.672699</xmin>
+            <ymin>190.863922</ymin>
+            <xmax>719.346313</xmax>
+            <ymax>1292.075073</ymax>
+        </bndbox>
+    </object>
+</annotation>

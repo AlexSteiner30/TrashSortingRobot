@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>-2x_SuccosoZero_Ace_0-90L.png</filename>
+    <size>
+        <width>1248</width>
+        <height>1248</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>473.621002</xmin>
+            <ymin>270.783661</ymin>
+            <xmax>796.362183</xmax>
+            <ymax>1125.098511</ymax>
+        </bndbox>
+    </object>
+</annotation>

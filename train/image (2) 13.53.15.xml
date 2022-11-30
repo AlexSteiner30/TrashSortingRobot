@@ -1,0 +1,33 @@
+<annotation>
+    <folder>train</folder>
+    <filename>image (2) 13.53.15.jpeg</filename>
+    <size>
+        <width>201</width>
+        <height>251</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>111.447762</xmin>
+            <ymin>38.848614</ymin>
+            <xmax>184.084564</xmax>
+            <ymax>220.123505</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>25.875622</xmin>
+            <ymin>39.844616</ymin>
+            <xmax>89.557205</xmax>
+            <ymax>215.143433</ymax>
+        </bndbox>
+    </object>
+</annotation>

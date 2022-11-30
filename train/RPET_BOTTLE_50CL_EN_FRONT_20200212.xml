@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>RPET_BOTTLE_50CL_EN_FRONT_20200212.png</filename>
+    <size>
+        <width>800</width>
+        <height>1016</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>529.338745</xmin>
+            <ymin>133.869064</ymin>
+            <xmax>792.010010</xmax>
+            <ymax>946.068909</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>SANTHELIMONE-8020141112006-2.png</filename>
+    <size>
+        <width>1000</width>
+        <height>1000</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>374.626007</xmin>
+            <ymin>19.980988</ymin>
+            <xmax>640.359985</xmax>
+            <ymax>981.019043</ymax>
+        </bndbox>
+    </object>
+</annotation>

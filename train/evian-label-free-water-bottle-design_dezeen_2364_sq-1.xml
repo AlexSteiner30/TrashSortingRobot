@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>evian-label-free-water-bottle-design_dezeen_2364_sq-1.jpg</filename>
+    <size>
+        <width>2364</width>
+        <height>2364</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>732.690369</xmin>
+            <ymin>224.905273</ymin>
+            <xmax>1569.336304</xmax>
+            <ymax>1714.275024</ymax>
+        </bndbox>
+    </object>
+</annotation>

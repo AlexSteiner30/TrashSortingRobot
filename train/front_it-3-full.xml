@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>front_it-3-full.jpg</filename>
+    <size>
+        <width>2000</width>
+        <height>2666</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>525.737488</xmin>
+            <ymin>184.930969</ymin>
+            <xmax>1372.313965</xmax>
+            <ymax>2539.047607</ymax>
+        </bndbox>
+    </object>
+</annotation>

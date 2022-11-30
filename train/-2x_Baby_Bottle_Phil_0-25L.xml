@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>-2x_Baby_Bottle_Phil_0-25L.png</filename>
+    <size>
+        <width>1248</width>
+        <height>1248</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>475.619385</xmin>
+            <ymin>284.772461</ymin>
+            <xmax>788.368530</xmax>
+            <ymax>1118.104248</ymax>
+        </bndbox>
+    </object>
+</annotation>

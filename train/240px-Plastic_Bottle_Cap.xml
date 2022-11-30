@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>240px-Plastic_Bottle_Cap.JPG</filename>
+    <size>
+        <width>240</width>
+        <height>180</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>67.720833</xmin>
+            <ymin>38.788891</ymin>
+            <xmax>182.241669</xmax>
+            <ymax>152.155563</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>65SBPET.jpg</filename>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>189.621994</xmin>
+            <ymin>9.982011</ymin>
+            <xmax>359.281982</xmax>
+            <ymax>489.022003</ymax>
+        </bndbox>
+    </object>
+</annotation>

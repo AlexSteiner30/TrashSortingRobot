@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>01-waterbottlesun_20190719_0023_3x4.jpg</filename>
+    <size>
+        <width>2305</width>
+        <height>3072</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>517.775696</xmin>
+            <ymin>304.901031</ymin>
+            <xmax>1190.483643</xmax>
+            <ymax>2488.190186</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,33 @@
+<annotation>
+    <folder>images</folder>
+    <filename>54343985-composition-with-colorful-plastic-bottle-caps-.jpg</filename>
+    <size>
+        <width>1300</width>
+        <height>770</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>449.654633</xmin>
+            <ymin>490.363617</ymin>
+            <xmax>661.491516</xmax>
+            <ymax>663.138977</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>PlasticCap</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>878.324646</xmin>
+            <ymin>415.461060</ymin>
+            <xmax>1077.171509</xmax>
+            <ymax>641.167542</ymax>
+        </bndbox>
+    </object>
+</annotation>

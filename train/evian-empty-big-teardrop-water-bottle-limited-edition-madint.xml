@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>evian-empty-big-teardrop-water-bottle-limited-edition-madint.jpg</filename>
+    <size>
+        <width>2048</width>
+        <height>1536</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>689.663574</xmin>
+            <ymin>178.884171</ymin>
+            <xmax>1248.390625</xmax>
+            <ymax>1205.215454</ymax>
+        </bndbox>
+    </object>
+</annotation>

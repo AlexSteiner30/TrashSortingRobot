@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>mineral-water-san-benedetto-sparkling-24-x-05-liters.jpg</filename>
+    <size>
+        <width>1000</width>
+        <height>1300</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>342.658020</xmin>
+            <ymin>217.833130</ymin>
+            <xmax>654.346008</xmax>
+            <ymax>1099.154541</ymax>
+        </bndbox>
+    </object>
+</annotation>

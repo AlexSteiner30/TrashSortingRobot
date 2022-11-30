@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>US_EV_Sunrise_750mL_bottle.jpg</filename>
+    <size>
+        <width>1737</width>
+        <height>5175</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>120.930916</xmin>
+            <ymin>43.991592</ymin>
+            <xmax>1595.081665</xmax>
+            <ymax>5153.004395</ymax>
+        </bndbox>
+    </object>
+</annotation>

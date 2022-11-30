@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>evian-still-water-plastic-1.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>316.605011</xmin>
+            <ymin>151.811279</ymin>
+            <xmax>482.397522</xmax>
+            <ymax>660.174988</ymax>
+        </bndbox>
+    </object>
+</annotation>

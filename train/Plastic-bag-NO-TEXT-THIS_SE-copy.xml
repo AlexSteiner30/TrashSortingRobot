@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>Plastic-bag-NO-TEXT-THIS_SE-copy.jpg</filename>
+    <size>
+        <width>820</width>
+        <height>550</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>188.770737</xmin>
+            <ymin>6.989074</ymin>
+            <xmax>619.245117</xmax>
+            <ymax>538.021790</ymax>
+        </bndbox>
+    </object>
+</annotation>

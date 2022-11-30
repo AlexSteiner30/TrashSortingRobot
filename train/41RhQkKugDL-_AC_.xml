@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>41RhQkKugDL-_AC_.jpg</filename>
+    <size>
+        <width>494</width>
+        <height>428</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>7.985830</xmin>
+            <ymin>6.985982</ymin>
+            <xmax>165.665985</xmax>
+            <ymax>415.030396</ymax>
+        </bndbox>
+    </object>
+</annotation>

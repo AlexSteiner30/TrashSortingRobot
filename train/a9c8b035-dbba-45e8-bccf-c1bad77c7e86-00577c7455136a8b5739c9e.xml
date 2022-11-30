@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>a9c8b035-dbba-45e8-bccf-c1bad77c7e86-00577c7455136a8b5739c9e.jpeg</filename>
+    <size>
+        <width>908</width>
+        <height>1276</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBag</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>27.970264</xmin>
+            <ymin>73.942764</ymin>
+            <xmax>904.004456</xmax>
+            <ymax>1261.011719</ymax>
+        </bndbox>
+    </object>
+</annotation>

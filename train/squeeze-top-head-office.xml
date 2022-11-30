@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>squeeze-top-head-office.jpg</filename>
+    <size>
+        <width>5417</width>
+        <height>5736</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1617.701538</xmin>
+            <ymin>60.989471</ymin>
+            <xmax>3710.314941</xmax>
+            <ymax>5533.035156</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>train</folder>
+    <filename>san-benedetto-natural.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>328.589996</xmin>
+            <ymin>185.768723</ymin>
+            <xmax>473.408752</xmax>
+            <ymax>599.251282</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,21 @@
+<annotation>
+    <folder>images</folder>
+    <filename>evian-330-ml-still-pet-800x1084_1_1.jpg</filename>
+    <size>
+        <width>600</width>
+        <height>813</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>PlasticBottle</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>213.644989</xmin>
+            <ymin>345.575653</ymin>
+            <xmax>388.353333</xmax>
+            <ymax>806.008667</ymax>
+        </bndbox>
+    </object>
+</annotation>
