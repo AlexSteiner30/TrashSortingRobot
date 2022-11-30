@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
+<<<<<<< HEAD
+<<<<<<< HEAD
 * text=auto
+=======
+* text=auto
+>>>>>>> parent of da1da72 (Training & Custom Model Working)
+=======
+* text=auto
+*.pth
+>>>>>>> parent of e2406d5 (Updates)

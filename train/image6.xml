@@ -1,21 +1,26 @@
 <annotation>
-    <folder>images</folder>
-    <filename>-2x_SuccosoZero_Ace_0-90L.png</filename>
-    <size>
-        <width>1248</width>
-        <height>1248</height>
-        <depth>3</depth>
-    </size>
-    <object>
-        <name>PlasticBottle</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>473.621002</xmin>
-            <ymin>270.783661</ymin>
-            <xmax>796.362183</xmax>
-            <ymax>1125.098511</ymax>
-        </bndbox>
-    </object>
+	<folder>train</folder>
+	<filename>image6.jpg</filename>
+	<path>/Users/alex.steiner/Desktop/Service in Actions/TrashSortingRobot/train/image6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2305</width>
+		<height>3072</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plasticBottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>417</xmin>
+			<ymin>277</ymin>
+			<xmax>1249</xmax>
+			<ymax>2559</ymax>
+		</bndbox>
+	</object>
 </annotation>

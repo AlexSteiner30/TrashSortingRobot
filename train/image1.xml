@@ -1,21 +1,26 @@
 <annotation>
-    <folder>images</folder>
-    <filename>-2x_Baby_Bottle_Phil_0-25L.png</filename>
-    <size>
-        <width>1248</width>
-        <height>1248</height>
-        <depth>3</depth>
-    </size>
-    <object>
-        <name>PlasticBottle</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>475.619385</xmin>
-            <ymin>284.772461</ymin>
-            <xmax>788.368530</xmax>
-            <ymax>1118.104248</ymax>
-        </bndbox>
-    </object>
+	<folder>train</folder>
+	<filename>image1.jpg</filename>
+	<path>/Users/alex.steiner/Desktop/Service in Actions/TrashSortingRobot/train/image1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>260</width>
+		<height>972</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plasticBottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>5</ymin>
+			<xmax>256</xmax>
+			<ymax>965</ymax>
+		</bndbox>
+	</object>
 </annotation>

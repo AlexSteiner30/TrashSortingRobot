@@ -1,21 +1,26 @@
 <annotation>
-    <folder>images</folder>
-    <filename>-2x_Pura_di_Roccia_Naturale_1-5L.png</filename>
-    <size>
-        <width>1248</width>
-        <height>1248</height>
-        <depth>3</depth>
-    </size>
-    <object>
-        <name>PlasticBottle</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>497.601746</xmin>
-            <ymin>208.833359</ymin>
-            <xmax>751.398254</xmax>
-            <ymax>1124.099365</ymax>
-        </bndbox>
-    </object>
+	<folder>train</folder>
+	<filename>image5.jpg</filename>
+	<path>/Users/alex.steiner/Desktop/Service in Actions/TrashSortingRobot/train/image5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plasticCap</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>161</xmin>
+			<ymin>278</ymin>
+			<xmax>1044</xmax>
+			<ymax>928</ymax>
+		</bndbox>
+	</object>
 </annotation>

@@ -1,21 +1,26 @@
 <annotation>
-    <folder>images</folder>
-    <filename>-2x_Ecogreen_Benedicta_1L.png</filename>
-    <size>
-        <width>1248</width>
-        <height>1248</height>
-        <depth>3</depth>
-    </size>
-    <object>
-        <name>PlasticBottle</name>
-        <pose>Unspecified</pose>
-        <truncated>0</truncated>
-        <difficult>0</difficult>
-        <bndbox>
-            <xmin>464.628204</xmin>
-            <ymin>258.793304</ymin>
-            <xmax>775.379028</xmax>
-            <ymax>1121.101807</ymax>
-        </bndbox>
-    </object>
+	<folder>train</folder>
+	<filename>image3.jpg</filename>
+	<path>/Users/alex.steiner/Desktop/Service in Actions/TrashSortingRobot/train/image3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plasticBottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>102</ymin>
+			<xmax>495</xmax>
+			<ymax>698</ymax>
+		</bndbox>
+	</object>
 </annotation>

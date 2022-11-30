@@ -5,8 +5,7 @@ from detecto.core import Model
 from detecto import utils, visualize
 
 # Loading model
-model = Model()
-model.load()
+model = Model.load("model.pth", ['plasticBottle', 'plasticCap', 'plasticBag', 'paperBag'])
 
 # Clear console
 os.system('clear')
@@ -19,7 +18,7 @@ vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 150)
 startPos = (0, 0)
 endPos = (0, 0)
 
-color = (150, 0, 0)
+color = (0, 0, 0)
 
 org = (0, 0)
 
@@ -35,7 +34,7 @@ while(True):
 
     print(labels[0] + ' ' + str(scores[0] * 100).replace('tensor(', '').replace(')', '') + '%')
 
-    ''' Frame Rendering
+    #Frame Rendering
     count = 0
     for x in labels:
         startPos = (int(boxes[count][0]), int(boxes[count][1]))
@@ -51,7 +50,6 @@ while(True):
         
     cv2.imshow('Trash Sorting Robot', frame)
 
-    '''
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
   
