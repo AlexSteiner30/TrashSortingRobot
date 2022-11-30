@@ -1,6 +1,3 @@
-from detecto import core, utils
-from torchvision import transforms
-import matplotlib.pyplot as plt
 from detecto.core import Dataset, Model, DataLoader
 
 dataset = Dataset('your_images_and_labels/') #folder (traning)
