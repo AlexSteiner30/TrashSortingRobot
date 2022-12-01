@@ -32,16 +32,12 @@ while(True):
     image = utils.read_image('frame.png') 
     labels, boxes, scores = model.predict(image) 
 
-    print(labels[0] + ' ' + str(scores[0] * 100).replace('tensor(', '').replace(')', '') + '%')
-
     #Frame Rendering
     count = 0
     for x in labels:
-
-        org = (0, count)
-
+        org = (0, count + 5)
         frame = cv2.putText(frame, labels[count] + " " + str(scores[count] * 100).replace('tensor(', '').replace(')', '') + "%", org, font, 0.5, color, 1, cv2.LINE_AA)
-        count += 5
+        count += 1;
 
         
     cv2.imshow('Trash Sorting Robot', frame)
