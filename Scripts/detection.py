@@ -1,49 +1,69 @@
-import os
+# Reference: https://fabacademy.org/2022/labs/kamakura/students/atsufumi-suzuki/Final%20Project/5.final-project-image-recognition.html
+
+# Import Libraries
+import time
+import tensorflow as tf
+import numpy as np
 import cv2
 
-from detecto.core import Model
-from detecto import utils, visualize
+model_path = "/Models/model.tflite"
 
-# Loading model
-model = Model.load("model.pth", ['plasticBottle', 'plasticCap', 'plasticBag', 'paperBag'])
+interpreter = tf.lite.Interpreter(model_path=model_path) # Load the model
+interpreter.allocate_tensors() # Memory allocation
 
-# Clear console
-os.system('clear')
+# Get the properties of the input and output layers of the training model
+input_details = interpreter.get_input_details()
+output_details = interpreter.get_output_details()
 
-# Analize image & render it
-vid = cv2.VideoCapture(0)
-vid.set(cv2.CAP_PROP_FRAME_WIDTH, 200)
-vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 150)
+# Obtaining the tensor data configuration of the input layer
+target_height = input_details[0]["shape"][1]
+target_width = input_details[0]["shape"][2]
 
-startPos = (0, 0)
-endPos = (0, 0)
+# Load the classes
+f = open("labels.txt", "r")
+lines = f.readlines()
+f.close()
+classes = {}
 
-color = (0, 0, 0)
+for line in lines:
+    pair = line.strip().split(maxsplit=1)
+    classes[int(pair[0])] = pair[1].strip()
 
-org = (0, 0)
+def detect(frame):
+    resized = cv2.resize(frame, (target_width, target_height))
+    input_data = np.expand_dims(resized, axis=0)
+    input_data = (np.float32(input_data) - 127.5) / 127.5 # Each RGB 0 ~ 255 pixel value should fall in the range of -1 to 1
+    interpreter.set_tensor(input_details[0]["index"], input_data) # Set pointer to tensor data in index
 
-font = cv2.FONT_HERSHEY_SIMPLEX
+    interpreter.invoke()
+    detection = interpreter.get_tensor(output_details[0]["index"])
 
-while(True):
-    ret, frame = vid.read()
+    return detection
 
-    cv2.imwrite('frame.png', frame)
+def draw_detection(frame, detection):
+    for i, s in enumerate(detection[0]):
+        tag = f"{classes[i]}: {s*100:.2f}%"
+        cv2.putText(frame, tag, (10, 20 + 20 * i),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+    return frame
 
-    image = utils.read_image('frame.png') 
-    labels, boxes, scores = model.predict(image) 
+def main():
+    vid = cv2.VideoCapture(0)
+    time.sleep(2)
 
-    #Frame Rendering
-    count = 0
-    for x in labels:
-        org = (0, count + 5)
-        frame = cv2.putText(frame, labels[count] + " " + str(scores[count] * 100).replace('tensor(', '').replace(')', '') + "%", org, font, 0.5, color, 1, cv2.LINE_AA)
-        count += 1;
+    while True:
+        ret, frame = vid.read()
 
-        
-    cv2.imshow('Trash Sorting Robot', frame)
+        detection = detect(frame)
+        value = classes[detection.tolist()[0].index(max(detection.tolist()[0]))]
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-  
-vid.release()
-cv2.destroyAllWindows()
+        drawn = draw_detection(frame, detection)
+        cv2.imshow("frame", drawn)
+
+        if cv2.waitKey(1) & 0xFF == ord("q"):
+            break
+
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    main()
