@@ -6,7 +6,7 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
-model_path = "/Models/model.tflite"
+model_path = "model.tflite"
 
 interpreter = tf.lite.Interpreter(model_path=model_path) # Load the model
 interpreter.allocate_tensors() # Memory allocation
