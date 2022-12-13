@@ -6,7 +6,7 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
-model_path = "model.tflite"
+model_path = "../TrainingModel/model.tflite"
 
 interpreter = tf.lite.Interpreter(model_path=model_path) # Load the model
 interpreter.allocate_tensors() # Memory allocation
@@ -20,7 +20,7 @@ target_height = input_details[0]["shape"][1]
 target_width = input_details[0]["shape"][2]
 
 # Load the classes
-f = open("labels.txt", "r")
+f = open("../TrainingModel/labels.txt", "r")
 lines = f.readlines()
 f.close()
 classes = {}
@@ -31,9 +31,11 @@ for line in lines:
 
 def detect(frame):
     resized = cv2.resize(frame, (target_width, target_height))
-    input_data = np.expand_dims(resized, axis=0)
-    input_data = (np.float32(input_data) - 127.5) / 127.5 # Each RGB 0 ~ 255 pixel value should fall in the range of -1 to 1
-    interpreter.set_tensor(input_details[0]["index"], input_data) # Set pointer to tensor data in index
+
+    # Random  seed generation for now have to change the input to the frame
+    input_shape = input_details[0]['shape']
+    input_data = np.array(np.random.random_sample(input_shape), dtype=np.float32)
+    interpreter.set_tensor(input_details[0]['index'], input_data)
 
     interpreter.invoke()
     detection = interpreter.get_tensor(output_details[0]["index"])
