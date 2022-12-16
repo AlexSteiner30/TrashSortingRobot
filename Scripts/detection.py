@@ -6,31 +6,48 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
-model_path = "../TrainingModel/TensorFlow/saved_model.pb"
+model_path = "../TrainingModel/model.tflite"
 
-model = tf.keras.models.load_model(model_path)
+interpreter = tf.lite.Interpreter(model_path=model_path) # Load the model
+interpreter.allocate_tensors() # Memory allocation
 
-# Functions
-def preprocess_image(image):
-  image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+# Get the properties of the input and output layers of the training model
+input_details = interpreter.get_input_details()
+output_details = interpreter.get_output_details()
 
-  image = cv2.resize(image, (224, 224))
+# Obtaining the tensor data configuration of the input layer
+target_height = input_details[0]["shape"][1]
+target_width = input_details[0]["shape"][2]
 
-  image = image / 255.0
-  image = image - 0.5
-  image = image * 2.0
+# Load the classes
+f = open("../TrainingModel/labels.txt", "r")
+lines = f.readlines()
+f.close()
+classes = {}
 
-  image = image + np.random.normal(0, 0.1, size=image.shape)
-
-  return image
+for line in lines:
+    pair = line.strip().split(maxsplit=1)
+    classes[int(pair[0])] = pair[1].strip()
 
 def detect(frame):
-    predictions = model.predict(frame)
+    resized = cv2.resize(frame, (target_width, target_height))
 
-    print(predictions)
+    # Random  seed generation for now have to change the input to the frame
+    input_shape = input_details[0]['shape']
+    input_data = np.array(np.random.random_sample(input_shape), dtype=np.float32)
+    interpreter.set_tensor(input_details[0]['index'], input_data)
 
-    return 1
+    interpreter.invoke()
+    detection = interpreter.get_tensor(output_details[0]["index"])
 
+    return detection
+
+def draw_detection(frame, detection):
+    for i, s in enumerate(detection[0]):
+        tag = f"{classes[i]}: {s*100:.2f}%"
+        cv2.putText(frame, tag, (10, 20 + 20 * i),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+    return frame
 
 def main():
     vid = cv2.VideoCapture(0)
@@ -40,8 +57,10 @@ def main():
         ret, frame = vid.read()
 
         detection = detect(frame)
+        value = classes[detection.tolist()[0].index(max(detection.tolist()[0]))]
 
-        cv2.imshow("Trash Sorting Robot", frame)
+        drawn = draw_detection(frame, detection)
+        cv2.imshow("frame", drawn)
 
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
