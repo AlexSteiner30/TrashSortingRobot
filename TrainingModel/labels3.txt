@@ -1,0 +1,6 @@
+0 Mandarin_Peels
+1 Banana_Peels
+2 Crushed_Bottles
+3 Bottle_Caps
+4 A4_Paper
+5 Paper_Tiussues
