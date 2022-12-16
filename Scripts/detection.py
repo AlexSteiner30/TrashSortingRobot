@@ -32,14 +32,14 @@ for line in lines:
 def detect(frame):
     resized = cv2.resize(frame, (target_width, target_height))
 
-    # Random  seed generation for now have to change the input to the frame
     input_shape = input_details[0]['shape']
     input_data = np.array(np.random.random_sample(input_shape), dtype=np.float32)
     interpreter.set_tensor(input_details[0]['index'], input_data)
-
     interpreter.invoke()
+
     detection = interpreter.get_tensor(output_details[0]["index"])
 
+    print(detection)
     return detection
 
 def draw_detection(frame, detection):
