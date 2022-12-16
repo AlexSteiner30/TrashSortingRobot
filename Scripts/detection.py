@@ -46,7 +46,7 @@ def detect(frame):
 def draw_detection(frame, detection):
     count = 1
     for i, s in enumerate(detection[0]):
-        if(s*100 >= percentage):
+        #if s*100 >= percentage :
             tag = f"{classes[i]}: {s*100:.2f}%"
             cv2.putText(frame, tag, (10, 20 * count), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
             count += 1
@@ -64,7 +64,7 @@ def main():
         value = classes[detection.tolist()[0].index(max(detection.tolist()[0]))]
 
         drawn = draw_detection(frame, detection)
-        cv2.imshow("frame", drawn)
+        cv2.imshow("Trash Sorting Robot", drawn)
 
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
