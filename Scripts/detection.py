@@ -6,6 +6,8 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
+percentage = 50
+
 model_path = "../TrainingModel/model.tflite"
 
 interpreter = tf.lite.Interpreter(model_path=model_path) # Load the model
@@ -44,7 +46,7 @@ def detect(frame):
 def draw_detection(frame, detection):
     count = 1
     for i, s in enumerate(detection[0]):
-        if(s*100 >= 50):
+        if(s*100 >= percentage):
             tag = f"{classes[i]}: {s*100:.2f}%"
             cv2.putText(frame, tag, (10, 20 * count), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
             count += 1
