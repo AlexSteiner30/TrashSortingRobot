@@ -8,7 +8,7 @@ import cv2
 
 percentage = 50
 
-model_path = "../TrainingModel/model.tflite"
+model_path = "../TrainingModel/model_unquant.tflite"
 
 interpreter = tf.lite.Interpreter(model_path=model_path) # Load the model
 interpreter.allocate_tensors() # Memory allocation
@@ -34,9 +34,9 @@ for line in lines:
 def detect(frame):
     resized = cv2.resize(frame, (target_width, target_height))
 
-    input_shape = input_details[0]['shape']
-    input_data = np.array(np.random.random_sample(input_shape), dtype=np.float32)
-    interpreter.set_tensor(input_details[0]['index'], input_data)
+    input_data = np.expand_dims(resized, axis=0)
+    input_data = (np.float32(input_data) - 127.5) / 127.5
+    interpreter.set_tensor(input_details[0]["index"], input_data)
     interpreter.invoke()
 
     detection = interpreter.get_tensor(output_details[0]["index"])
@@ -46,8 +46,8 @@ def detect(frame):
 def draw_detection(frame, detection):
     count = 1
     for i, s in enumerate(detection[0]):
-        #if s*100 >= percentage :
-            tag = f"{classes[i]}: {s*100:.2f}%"
+        tag = f"{classes[i]}: {s*100:.2f}%"
+        if s*100 >= percentage :
             cv2.putText(frame, tag, (10, 20 * count), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
             count += 1
 
@@ -55,6 +55,9 @@ def draw_detection(frame, detection):
 
 def main():
     vid = cv2.VideoCapture(0)
+    vid.set(cv2.CAP_PROP_FRAME_WIDTH, target_width)
+    vid.set(cv2.CAP_PROP_FRAME_HEIGHT, target_height)
+
     time.sleep(2)
 
     while True:
