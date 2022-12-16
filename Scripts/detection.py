@@ -39,14 +39,16 @@ def detect(frame):
 
     detection = interpreter.get_tensor(output_details[0]["index"])
 
-    print(detection)
     return detection
 
 def draw_detection(frame, detection):
+    count = 1
     for i, s in enumerate(detection[0]):
-        tag = f"{classes[i]}: {s*100:.2f}%"
-        cv2.putText(frame, tag, (10, 20 + 20 * i),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+        if(s*100 >= 50):
+            tag = f"{classes[i]}: {s*100:.2f}%"
+            cv2.putText(frame, tag, (10, 20 * count), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+            count += 1
+
     return frame
 
 def main():
