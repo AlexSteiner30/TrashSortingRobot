@@ -6,6 +6,8 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
+import robot
+
 percentage = 50
 
 model_path = "../TrainingModel/model_unquant.tflite"
@@ -47,11 +49,29 @@ def draw_detection(frame, detection):
     count = 1
     for i, s in enumerate(detection[0]):
         tag = f"{classes[i]}: {s*100:.2f}%"
+
         if s*100 >= percentage :
             cv2.putText(frame, tag, (10, 20 * count), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
             count += 1
+            Sort(classes[i])
 
     return frame
+
+def Sort(name):
+    if name == "Bottle_Caps" or name == "Crushed_Bottles":
+        print("Plastic detected!")
+        robot.move("Plastic")
+
+    elif name == "Mandarin_Peels" or name == "Banana_Peels":
+        print("Organic detected!")
+        robot.move("Organic")
+
+    elif name == "A4_Paper" or name == "Paper_Tissues":
+        print("Organic detected!")
+        robot.move("Organic")
+
+    else:
+        print("Other object detected!")
 
 def main():
     vid = cv2.VideoCapture(0)
