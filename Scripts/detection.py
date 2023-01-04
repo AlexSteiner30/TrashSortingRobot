@@ -67,7 +67,7 @@ def Sort(name):
         robot.move("Organic")
 
     elif name == "A4_Paper" or name == "Paper_Tissues":
-        print("Organic detected!")
+        print("Paper detected!")
         robot.move("Organic")
 
     else:
@@ -84,7 +84,6 @@ def main():
         ret, frame = vid.read()
 
         detection = detect(frame)
-        value = classes[detection.tolist()[0].index(max(detection.tolist()[0]))]
 
         drawn = draw_detection(frame, detection)
         cv2.imshow("Trash Sorting Robot", drawn)
