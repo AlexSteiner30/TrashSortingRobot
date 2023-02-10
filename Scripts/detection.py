@@ -8,6 +8,14 @@ import cv2
 
 import robot
 
+import RPi.GPIO as GPIO
+import requests as req
+from imutils.video.pivideostream import PiVideoStream
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
 percentage = 50
 
 model_path = "../TrainingModel/model_unquant.tflite"
@@ -74,14 +82,11 @@ def Sort(name):
         print("Other object detected!")
 
 def main():
-    vid = cv2.VideoCapture(0)
-    vid.set(cv2.CAP_PROP_FRAME_WIDTH, target_width)
-    vid.set(cv2.CAP_PROP_FRAME_HEIGHT, target_height)
-
+    camera = PiVideoStream(resolution=(512, 400)).start()
     time.sleep(2)
 
     while True:
-        ret, frame = vid.read()
+        frame = camera.read()
 
         detection = detect(frame)
 
