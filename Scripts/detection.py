@@ -51,9 +51,7 @@ def draw_detection(frame, detection):
         tag = f"{classes[i]}: {s*100:.2f}%"
 
         if s*100 >= percentage :
-            cv2.putText(frame, tag, (10, 20 * count), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
-            count += 1
-            Sort(classes[i])
+            print(tag)
 
     return frame
 
@@ -86,7 +84,6 @@ def main():
         detection = detect(frame)
 
         drawn = draw_detection(frame, detection)
-        cv2.imshow("Trash Sorting Robot", drawn)
 
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
