@@ -48,7 +48,7 @@ def detect(frame):
 def draw_detection(frame, detection):
     count = 1
     for i, s in enumerate(detection[0]):
-        tag = f"{classes[i]}: {s*100:.2f}%"
+        tag = classes[i] + str(s*100:.2f) + "%"
 
         if s*100 >= percentage :
             print(tag)
