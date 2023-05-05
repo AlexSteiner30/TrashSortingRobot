@@ -1,6 +1,8 @@
 0 Banana_Peels
-1 Mandarin_Peels
-2 Crushed_Plastic_Bottle
-3 Plastic_Caps
-4 A4_Paper
-5 Paper_Tissues
+1 Mandrin_Peels
+2 A4_Paper
+3 Paper_Tissues
+4 Plastic_Bottle
+5 Plastic_Caps
+6 Blank
+7 Junk
